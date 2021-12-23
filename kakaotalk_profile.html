@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>1팀_김지용_(구)카카오톡 프로필 만들기</title>
+<style>
+    .wrap {
+        width: 480px;
+        height: 800px;
+        margin: 50px auto 50px auto;
+        position: relative;
+        border: 1px solid lightgray;
+    }
+
+    .top {
+        height: 500px;
+        /*background-color: lightblue;*/
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 50px 0 50px;
+
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEE3iCNXhJmAKCNmUfpNtSH1-h2fjR5rsJxPBrPN6Mj0dHyggaXOIQcyMuDTjkxLUAD7I&usqp=CAU");
+        background-size: cover;
+        background-position: center;
+    }
+
+    .line {
+        margin-bottom: 10px;
+        color: white;
+    }
+
+    .bottom {
+        height: 300px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0 100px 0 100px;
+    }
+
+    .comment {
+        text-align: center;
+        color: white;
+    }
+
+    .icon_set {
+        width: 300px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 10px;
+    }
+
+
+    .icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .chat_icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile_icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .kakaostory_icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .center_img {
+        width: 100px;
+        height: 100px;
+        top: 450px;
+        left: 190px;
+        object-fit: cover;
+        border-radius: 50px;
+        position: absolute;
+
+
+    }
+
+</style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="top">
+            <div class="line">___________</div>
+            <div class="comment">
+                안녕하세요. 저는 슈렉에 나오는.. 이 아닌 장화신은 고양이인데... 슈렉에 나오는 애가 됐어요... 아.. 고양이 키우고 싶다....
+            </div>
+        </div>
+
+        <img class="center_img" src="data:image/jpeg;base64,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" alt="프로필 이미지">
+
+        <div class="bottom">
+            <h2>눈빛 발사!!!</h2>
+            <div class="icon_set">
+                <div class="chat_icon">
+                    <img class="icon" src="나와의%20채팅.png">
+                    <h4>나와의 채팅</h4>
+                </div>
+                <div class="profile_icon">
+                    <img class="icon" src="프로필관리.png">
+                    <h4>프로필 관리</h4>
+                </div>
+                <div class="kakaostory_icon">
+                    <img class="icon" src="카스.png">
+                    <h4>카카오스토리</h4>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
