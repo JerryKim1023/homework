@@ -8,52 +8,56 @@
     <link rel="stylesheet" href="../static/style.css">
 </head>
 <body>
-    <div id="main">
-        <header id="header">
-            <img class="header_icon" src="../img/camera@3x.png">
-            <img id="logo" src="../img/insta-logo.png">
-            <img class="header_icon" src="../img/dm@3x.png">
-        </header>
-        <nav id="container">
-            <div id="story-container">
-                <div class="story-wrapper">
-                    <div class="story-off">
-                        <img src="../img/xmas.jpg">
-                    </div>
-                    <p>내 스토리</p>
+<div id="main">
+    <!--    header-->
+    <header id="header">
+        <img class="header_icon" src="../img/camera@3x.png">
+        <img id="logo" src="../img/insta-logo.png">
+        <img class="header_icon" src="../img/dm@3x.png">
+    </header>
+
+    <div class="wrap-fix">
+        <!--    container-->
+        <div id="container">
+        <div id="story-container">
+            <div class="story-wrapper">
+                <div class="story-off">
+                    <img src="../img/xmas.jpg">
                 </div>
-                <div class="story-wrapper">
-                    <div class="story-on">
-                        <img src="../img/xmas.jpg"/>
-                    </div>
-                    <p>내 스토리</p>
-                </div>
-                <div class="story-wrapper">
-                    <div class="story-on">
-                        <img src="../img/xmas.jpg"/>
-                    </div>
-                    <p>내 스토리</p>
-                </div>
-                <div class="story-wrapper">
-                    <div class="story-on">
-                        <img src="../img/xmas.jpg"/>
-                    </div>
-                    <p>내 스토리</p>
-                </div>
-                <div class="story-wrapper">
-                    <div class="story-on">
-                        <img src="../img/xmas.jpg"/>
-                    </div>
-                    <p>내 스토리</p>
-                </div>
-                <div class="story-wrapper">
-                    <div class="story-on">
-                        <img src="../img/xmas.jpg"/>
-                    </div>
-                    <p>내 스토리</p>
-                </div>
+                <p>내 스토리</p>
             </div>
-            <section id="post-container">
+            <div class="story-wrapper">
+                <div class="story-on">
+                    <img src="../img/xmas.jpg"/>
+                </div>
+                <p>내 스토리</p>
+            </div>
+            <div class="story-wrapper">
+                <div class="story-on">
+                    <img src="../img/xmas.jpg"/>
+                </div>
+                <p>내 스토리</p>
+            </div>
+            <div class="story-wrapper">
+                <div class="story-on">
+                    <img src="../img/xmas.jpg"/>
+                </div>
+                <p>내 스토리</p>
+            </div>
+            <div class="story-wrapper">
+                <div class="story-on">
+                    <img src="../img/xmas.jpg"/>
+                </div>
+                <p>내 스토리</p>
+            </div>
+            <div class="story-wrapper">
+                <div class="story-on">
+                    <img src="../img/xmas.jpg"/>
+                </div>
+                <p>내 스토리</p>
+            </div>
+        </div>
+        <section id="post-container">
             <div class="post-wrapper">
                 <div class="post-header">
                     <div class="left-wrapper">
@@ -131,17 +135,68 @@
                 </div>
             </div>
         </section>
-        </nav>
-
-        <footer id="footer">
-            <div id="icon-wrapper">
-                <img src="../img/home@3x.png">
-                <img src="../img/search@3x.png">
-                <img src="../img/trending@3x.png">
-                <img src="../img/like@3x.png">
-                <img src="../img/home@3x.png">
-            </div>
-        </footer>
     </div>
+    <!-- main-right -->
+        <div class="main-right">
+        <!-- recommendation section -->
+        <div class="section-recommend">
+            <div class="menu-title">
+                <span class="sub-title">회원님을 위한 추천</span>
+                <span class="find-more">모두 보기</span>
+            </div>
+            <ul class="recommend-list">
+                <li>
+                    <div class="recommend-friend-profile">
+                        <img class="img-profile"
+                             src="../img/xmas.jpg"
+                             alt="renebaebae님의 프로필 사진">
+                        <div class="profile-text">
+                            <span class="userID point-span">renebaebae</span>
+                            <span class="sub-span">hi_sseulgi님 외 2명이 팔로우합니다</span>
+                        </div>
+                    </div>
+                    <span class="btn-follow">팔로우</span>
+                </li>
+                <li>
+                    <div class="recommend-friend-profile">
+                        <img class="img-profile"
+                             src="../img/xmas.jpg"
+                             alt="정해인님의 프로필 사진">
+                        <div class="profile-text">
+                            <span class="userID point-span">_jeongHI</span>
+                            <span class="sub-span">_jeongHI님이 팔로우합니다</span>
+                        </div>
+                    </div>
+                    <span class="btn-follow">팔로우</span>
+                </li>
+                <li>
+                    <div class="recommend-friend-profile">
+                        <img class="img-profile"
+                             src="../img/xmas.jpg"
+                             alt="leehi_hi님의 프로필 사진">
+                        <div class="profile-text">
+                            <span class="userID point-span">leehi_hi</span>
+                            <span class="sub-span">jennierubyjane님 외 5명이 팔로우합...</span>
+                        </div>
+                    </div>
+                    <span class="btn-follow">팔로우</span>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    </div>
+
+    <!--    footer-->
+    <footer id="footer">
+        <div id="icon-wrapper">
+            <img src="../img/home@3x.png">
+            <img src="../img/search@3x.png">
+            <img src="../img/trending@3x.png">
+            <img src="../img/like@3x.png">
+            <img src="../img/home@3x.png">
+        </div>
+    </footer>
+</div>
 </body>
 </html>
